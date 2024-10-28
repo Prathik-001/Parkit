@@ -1,0 +1,79 @@
+
+.login-form {
+    margin :200px auto;
+    margin-top: 160px;
+    max-width:750px;
+    max-height: 420px;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 30px;
+    background-color: white; 
+    transition: transform 0.5s;
+}
+.login-form:hover {
+    transform: translateY(10px);
+    background-color: #fef8f8;
+}
+
+.login-form .h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+    
+.login-form label {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #383737; 
+}
+
+.login-form input:focus {
+    color: rgb(24, 23, 23); 
+    border-color: #007bff; 
+    outline: none;
+}
+
+.login-form button {
+    width: 40%;
+    padding: 12px;
+    background-color: #007bff; 
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 60px;
+    border: none; 
+    border-radius: 15px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+.login-form input[type=password],input[type=text],input[type=email]{
+    padding: 12px 12px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5px; 
+    font-size: 20px; 
+    transition: border-color 0.2s;
+    margin-bottom: 10px;
+    width: 100%;    
+}   
+.login-form .block{
+    display: flex;
+}
+.login-form .log-1{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border:#000000;
+}
+.login-form .log-2{
+    width: 50%;
+    margin-top: 10px;   
+}
+.login-form .log-3{
+    text-align: center;
+}

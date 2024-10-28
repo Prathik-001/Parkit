@@ -1,0 +1,82 @@
+.signup {
+    max-width: 750px;
+    align-items:flex-start;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0px 20px 60px #d0d0d0,;
+  }
+  
+  .signup h2 {
+    text-align: center;
+    color: #252525;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .signup form {
+    
+    flex-direction:column;
+  }
+  
+  .signup label {
+    margin-bottom:2px;
+    color: #363636;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .signup input, .signup select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fbecec;
+    transition: all 0.3s ease;
+  }
+  
+  .signup button {
+    padding: 15px;
+    background-color: #2c5585;
+    color: white;
+    border: none;
+    margin-left:auto;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .signup button:hover {
+    background-color: #062747;
+    transform: translateY(5px);
+  }
+  
+  .signup input::placeholder {
+    color: #aaa;
+    font-size: 15px;
+    font-family:  Helvetica, sans-serif;
+
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .signup {
+    animation: fa
+    deIn 0.5s ease-out;
+  }
+  .signup p{
+    margin: 10px;
+  }
+  .signup p Link{
+    color: blue;
+  }
+  

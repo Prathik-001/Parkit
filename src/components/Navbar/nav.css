@@ -1,0 +1,43 @@
+.nav nav  {
+    background-color: rgb(74, 43, 152);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 10%;
+
+}
+.nav .park{
+    font-size:50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    position: fixed;
+    }
+.nav ul{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    gap: 30px;
+}
+.nav li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    margin-bottom: 4em;
+    text-decoration: none;
+}
+.nav .list ul li:not(:last-child)::after{
+    content: "|";
+    margin-left: 1rem;
+    color: antiquewhite;
+}
+.nav .list ul li :hover{
+    text-decoration: none;
+    color: rgb(52, 148, 226);  
+}
