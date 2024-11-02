@@ -6,18 +6,18 @@
     height: 100vh; 
 }
 .body .button {
-    display:inline-block;  
+    display:flex;  
     width: 200px;
     padding: 15px 20px; 
     background-color: rgb(74, 43, 152); 
     color: white;  
     border-radius: 20px;
-    margin-left: 20px; 
+    justify-content: center;
 }
 .body .button .btext {
-    text-align: center;
     text-decoration: none;
-    font-size: 20px;    
+    font-size: 20px;
+    font-weight: bold ;    
 }
 .body .button .btext:hover{
     text-decoration: none;

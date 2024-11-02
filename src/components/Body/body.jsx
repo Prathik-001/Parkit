@@ -5,7 +5,7 @@ function hero() {
     <div className='body'>
         <h1>Your Parking Solution At Your Finger Tip Using "Parkit".</h1>
         <div className='button'>
-          <p><Link to="/login" className='btext'>Book my Slot</Link></p>
+          <p><Link to="/login" className='btext'>Book My Slot</Link></p>
           </div>
         
     </div>

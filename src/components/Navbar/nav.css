@@ -41,3 +41,15 @@
     text-decoration: none;
     color: rgb(52, 148, 226);  
 }
+.nav .copyright-area{
+    background: #1c1c7bfc;
+    padding: 10px 0;
+    position: fixed;
+    width:100%;
+    bottom: 0px; 
+}
+.nav .copyright-text p {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;	
+}

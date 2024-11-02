@@ -15,6 +15,11 @@ function nav() {
             </ul>
             </div>
         </nav>
+        <div className="copyright-area">
+          <div className="copyright-text">
+            <p> 2024, All Rights Reserved </p>
+          </div>
+        </div>
     </div>
   )
 }
