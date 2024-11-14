@@ -1,0 +1,87 @@
+.booking {
+  font-family:Arial, sans-serif;
+  line-height: 1;
+  margin: 30px;
+  margin-top: 8%;
+  padding: 20px;
+  font-size: 15px;
+  width: 97%;
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.booking h1 {
+  padding:2px;
+  font-weight: bold;
+  font-size: 40px;
+  height: 50px;
+  text-align: center;
+  color: #000000;
+  background-color: #f0c74c;
+  border-radius: 15px;
+}
+
+.booking .booking-form {
+background-color: #2511d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking .detailslot{
+  margin-top: 5px;
+  display:flex;
+  background-color: rgb(195, 236, 255);
+}
+
+.booking .userdetails {
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  height: 420px;
+  width: 48%;
+  border-radius: 15px;
+background-color: rgb(212, 113, 223);
+}
+
+.booking .slots {
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 2%;
+  height: 420px;
+  background-color: rgb(98, 197, 237);
+  border-radius: 15px;
+  width: 47%;
+}
+.booking label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.booking input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.booking button {
+  width: 20%;
+  margin-left: 13%;
+  background-color: #2a2dcc;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking button:hover {
+  background-color: #070042;
+}

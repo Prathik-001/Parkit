@@ -5,10 +5,10 @@ import './components/Signup/signup.css'
 import './components/Navbar/nav.css'
 import './components/Body/body.css'
 import './components/About/about.css'
+import './Components/Admin/admin.css'
 import Home from './components/Home/home.jsx'
 import Navbar from './components/Navbar/nav.jsx'
-import { Outlet } from 'react-router-dom'
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link,Outlet } from 'react-router-dom';
 
 const App =()=> {
   return (
